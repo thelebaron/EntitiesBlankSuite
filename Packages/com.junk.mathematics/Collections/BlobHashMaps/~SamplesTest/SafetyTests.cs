@@ -53,7 +53,7 @@ namespace Junk.Collections.Tests
                     hashMapBuilder.Add(new int2(i, 0), 0);
                 }
             }
-            catch (InvalidOperationException e)
+            catch (InvalidOperationException)
             {
                 Debug.Log("OK");
             }
